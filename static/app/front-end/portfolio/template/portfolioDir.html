@@ -1,0 +1,26 @@
+<span class="glyphicon glyphicon-pencil rename" ng-if="(admin == 'admin')" editable-text="user.portfolio.aboutPortfolio"></span>
+<h3 ng-bind="user.portfolio.aboutPortfolio"></h3>
+<div class="row" >
+    <div class="col-xs-6" ng-repeat="item in user.portfolio.items">
+        <button type="button" class="btn btn-danger" ng-click="removePortfolio(item)" ng-if="(admin == 'admin')">Delete</button>
+        <a ng-href="item.link" class="thumbnail">
+            <img ng-src="{{item.src}}" alt="">
+        </a>
+        <p  class="about-portfolio">{{item.description}}
+            <span class="glyphicon glyphicon-pencil rename" ng-if="(admin == 'admin')" editable-text="item.description"></span>
+        </p>
+    </div>
+
+
+
+</div>
+
+<div class="form-group" ng-if="(admin == 'admin')">
+    <span >Src</span>
+    <input type="text" class="form-control"  ng-model="newSrc">
+    <span >Link portfolio</span>
+    <input type="text" class="form-control"  ng-model="newLink">
+    <span>Description</span>
+    <input type="text" class="form-control"  ng-model="newDescription">
+    <button type="submit" class="btn btn-default" ng-click="addPortfolio(newSrc, newDescription, newLink)">Add Skill</button>
+</div>

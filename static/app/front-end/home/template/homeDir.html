@@ -1,0 +1,22 @@
+
+
+<span class="glyphicon glyphicon-pencil rename" ng-if="(admin == 'admin')" editable-text="user.home.hi" e-label="salutation"></span>
+<h3 ng-bind="user.home.hi"></h3>
+
+<a href="#" editable-textarea="user.home.about" ng-if="(admin == 'admin')" e-rows="7" e-cols="60"  e-label="About">
+    <pre>{{ user.home.about || 'no description' }}</pre>
+</a>
+<p ng-bind="user.home.about" ng-if ="admin !== 'admin'"></p>
+
+
+<div class="slider col-xs-12">
+    <ul>
+        <li ng-repeat="key in user.portfolio.items">
+            <img ng-src="{{key.src}}" alt="{{key.description}}" title="{{key.description}}">
+        </li>
+
+    </ul>
+</div>
+
+
+

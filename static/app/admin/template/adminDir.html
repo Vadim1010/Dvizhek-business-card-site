@@ -1,0 +1,33 @@
+<p>Change the Background Color Nav color</p>
+
+<button type="button" class="btn btn-default"  ng-click="changeColorBg(user.nav.background.colorWhite)">White</button>
+<button type="button" class="btn btn-primary" ng-click="changeColorBg(user.nav.background.colorBlue)">Blue</button>
+<button type="button" class="btn btn-warning"  ng-click="changeColorBg(user.nav.background.colorYellow)">Yellow</button>
+<button type="button" class="btn btn-link"  ng-click="changeColorBg(user.nav.background.colorNon)">Transparent</button>
+
+<hr>
+
+<p>The main background</p>
+<button type="button" class="btn btn-default" ng-click="changeBgBody(user.backgroundBody.first)">Castle</button>
+<button type="button" class="btn btn-default" ng-click="changeBgBody(user.backgroundBody.second)">Volcano</button>
+<button type="button" class="btn btn-default" ng-click="changeBgBody(user.backgroundBody.third)">Space</button>
+<button type="button" class="btn btn-default" ng-click="changeBgBody(user.backgroundBody.fourth)">World</button>
+<button type="button" class="btn btn-default" ng-click="changeBgBody(user.backgroundBody.fifth)">3 D</button>
+
+
+<hr>
+<p>color text</p>
+<button type="button" class="btn btn-default" ng-click="changeColor(user.colorText.colorWhite)">White</button>
+<button type="button" class="btn btn-primary" ng-click="changeColor(user.colorText.colorBlue)">Blue</button>
+<button type="button" class="btn btn-success" ng-click="changeColor(user.colorText.colorGreen)">Green</button>
+<button type="button" class="btn btn-warning" ng-click="changeColor(user.colorText.colorYellow)">Yellow</button>
+<button type="button" class="btn btn-danger" ng-click="changeColor(user.colorText.colorRed)">Red</button>
+<button type="button" class="btn btn-link"  ng-click="changeColor(user.colorText.colorNon)"
+        style="background: #000; color:white">Back</button>
+
+
+<hr>
+<p>Change Login and Pass</p>
+
+<p editable-text="user.authentication.first">Login : {{user.authentication.first}}</p>
+<p editable-password="user.authentication.second">Pass : {{user.authentication.second}}</p>

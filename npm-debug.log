@@ -1,0 +1,233 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'D:\\Node\\node.exe',
+1 verbose cli   'D:\\Node\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   'ngstorage' ]
+2 info using npm@2.15.9
+3 info using node@v4.6.0
+4 verbose install initial load of D:\Frontend\OpenServer\OpenServer\domains\myWork\package.json
+5 verbose installManyTop reading scoped package data from D:\Frontend\OpenServer\OpenServer\domains\myWork\node_modules\angular\package.json
+6 verbose installManyTop reading scoped package data from D:\Frontend\OpenServer\OpenServer\domains\myWork\node_modules\angular-mocks\package.json
+7 verbose installManyTop reading scoped package data from D:\Frontend\OpenServer\OpenServer\domains\myWork\node_modules\angular-xeditable\package.json
+8 verbose installManyTop reading scoped package data from D:\Frontend\OpenServer\OpenServer\domains\myWork\node_modules\angular-xeditable-npm\package.json
+9 verbose installManyTop reading scoped package data from D:\Frontend\OpenServer\OpenServer\domains\myWork\node_modules\babel-core\package.json
+10 verbose installManyTop reading scoped package data from D:\Frontend\OpenServer\OpenServer\domains\myWork\node_modules\babel-loader\package.json
+11 verbose installManyTop reading scoped package data from D:\Frontend\OpenServer\OpenServer\domains\myWork\node_modules\babel-preset-es2015\package.json
+12 verbose installManyTop reading scoped package data from D:\Frontend\OpenServer\OpenServer\domains\myWork\node_modules\babel-preset-react\package.json
+13 verbose installManyTop reading scoped package data from D:\Frontend\OpenServer\OpenServer\domains\myWork\node_modules\babel-preset-stage-0\package.json
+14 verbose installManyTop reading scoped package data from D:\Frontend\OpenServer\OpenServer\domains\myWork\node_modules\babel-preset-stage-1\package.json
+15 verbose installManyTop reading scoped package data from D:\Frontend\OpenServer\OpenServer\domains\myWork\node_modules\bootstrap\package.json
+16 verbose installManyTop reading scoped package data from D:\Frontend\OpenServer\OpenServer\domains\myWork\node_modules\bootstrap-sass\package.json
+17 verbose installManyTop reading scoped package data from D:\Frontend\OpenServer\OpenServer\domains\myWork\node_modules\css-loader\package.json
+18 verbose installManyTop reading scoped package data from D:\Frontend\OpenServer\OpenServer\domains\myWork\node_modules\extract-text-webpack-plugin\package.json
+19 verbose installManyTop reading scoped package data from D:\Frontend\OpenServer\OpenServer\domains\myWork\node_modules\file-loader\package.json
+20 verbose installManyTop reading scoped package data from D:\Frontend\OpenServer\OpenServer\domains\myWork\node_modules\font-awesome\package.json
+21 verbose installManyTop reading scoped package data from D:\Frontend\OpenServer\OpenServer\domains\myWork\node_modules\html-loader\package.json
+22 verbose installManyTop reading scoped package data from D:\Frontend\OpenServer\OpenServer\domains\myWork\node_modules\jquery\package.json
+23 verbose installManyTop reading scoped package data from D:\Frontend\OpenServer\OpenServer\domains\myWork\node_modules\json-loader\package.json
+24 verbose installManyTop reading scoped package data from D:\Frontend\OpenServer\OpenServer\domains\myWork\node_modules\ng-storage\package.json
+25 verbose installManyTop reading scoped package data from D:\Frontend\OpenServer\OpenServer\domains\myWork\node_modules\ngstorage\package.json
+26 verbose installManyTop reading scoped package data from D:\Frontend\OpenServer\OpenServer\domains\myWork\node_modules\node-sass\package.json
+27 verbose installManyTop reading scoped package data from D:\Frontend\OpenServer\OpenServer\domains\myWork\node_modules\require\package.json
+28 verbose installManyTop reading scoped package data from D:\Frontend\OpenServer\OpenServer\domains\myWork\node_modules\resolve-url-loader\package.json
+29 verbose installManyTop reading scoped package data from D:\Frontend\OpenServer\OpenServer\domains\myWork\node_modules\sass-loader\package.json
+30 verbose installManyTop reading scoped package data from D:\Frontend\OpenServer\OpenServer\domains\myWork\node_modules\style-loader\package.json
+31 verbose installManyTop reading scoped package data from D:\Frontend\OpenServer\OpenServer\domains\myWork\node_modules\url-loader\package.json
+32 verbose installManyTop reading scoped package data from D:\Frontend\OpenServer\OpenServer\domains\myWork\node_modules\webpack\package.json
+33 info package.json ngstorage@0.3.11 No license field.
+34 info package.json require@2.4.20 No license field.
+35 verbose readDependencies loading dependencies from D:\Frontend\OpenServer\OpenServer\domains\myWork\package.json
+36 verbose install ngstorage is installed as 0.3.11
+37 silly cache add args [ 'ngstorage@^0.3.11', null ]
+38 verbose cache add spec ngstorage@^0.3.11
+39 silly cache add parsed spec Result {
+39 silly cache add   raw: 'ngstorage@^0.3.11',
+39 silly cache add   scope: null,
+39 silly cache add   name: 'ngstorage',
+39 silly cache add   rawSpec: '^0.3.11',
+39 silly cache add   spec: '>=0.3.11 <0.4.0',
+39 silly cache add   type: 'range' }
+40 silly addNamed ngstorage@>=0.3.11 <0.4.0
+41 verbose addNamed ">=0.3.11 <0.4.0" is a valid semver range for ngstorage
+42 silly addNameRange { name: 'ngstorage', range: '>=0.3.11 <0.4.0', hasData: false }
+43 silly mapToRegistry name ngstorage
+44 silly mapToRegistry using default registry
+45 silly mapToRegistry registry https://registry.npmjs.org/
+46 silly mapToRegistry data Result {
+46 silly mapToRegistry   raw: 'ngstorage',
+46 silly mapToRegistry   scope: null,
+46 silly mapToRegistry   name: 'ngstorage',
+46 silly mapToRegistry   rawSpec: '',
+46 silly mapToRegistry   spec: 'latest',
+46 silly mapToRegistry   type: 'tag' }
+47 silly mapToRegistry uri https://registry.npmjs.org/ngstorage
+48 verbose addNameRange registry:https://registry.npmjs.org/ngstorage not in flight; fetching
+49 verbose request uri https://registry.npmjs.org/ngstorage
+50 verbose request no auth needed
+51 info attempt registry request try #1 at 16:01:30
+52 verbose request id 110bde38721f2ce2
+53 verbose etag W/"579eef95-4cc4"
+54 verbose lastModified Mon, 01 Aug 2016 06:43:33 GMT
+55 http request GET https://registry.npmjs.org/ngstorage
+56 http 304 https://registry.npmjs.org/ngstorage
+57 verbose headers { date: 'Thu, 29 Dec 2016 14:01:38 GMT',
+57 verbose headers   via: '1.1 varnish',
+57 verbose headers   'cache-control': 'max-age=300',
+57 verbose headers   etag: 'W/"579eef95-4cc4"',
+57 verbose headers   age: '257',
+57 verbose headers   connection: 'keep-alive',
+57 verbose headers   'x-served-by': 'cache-ams4131-AMS',
+57 verbose headers   'x-cache': 'HIT',
+57 verbose headers   'x-cache-hits': '1',
+57 verbose headers   'x-timer': 'S1483020098.746707,VS0,VE0',
+57 verbose headers   vary: 'Accept-Encoding' }
+58 silly get cb [ 304,
+58 silly get   { date: 'Thu, 29 Dec 2016 14:01:38 GMT',
+58 silly get     via: '1.1 varnish',
+58 silly get     'cache-control': 'max-age=300',
+58 silly get     etag: 'W/"579eef95-4cc4"',
+58 silly get     age: '257',
+58 silly get     connection: 'keep-alive',
+58 silly get     'x-served-by': 'cache-ams4131-AMS',
+58 silly get     'x-cache': 'HIT',
+58 silly get     'x-cache-hits': '1',
+58 silly get     'x-timer': 'S1483020098.746707,VS0,VE0',
+58 silly get     vary: 'Accept-Encoding' } ]
+59 verbose etag https://registry.npmjs.org/ngstorage from cache
+60 verbose get saving ngstorage to C:\Users\Дом\AppData\Roaming\npm-cache\registry.npmjs.org\ngstorage\.cache.json
+61 verbose correctMkdir C:\Users\Дом\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+62 silly addNameRange number 2 { name: 'ngstorage', range: '>=0.3.11 <0.4.0', hasData: true }
+63 silly addNameRange versions [ 'ngstorage',
+63 silly addNameRange   [ '0.3.3',
+63 silly addNameRange     '0.3.4',
+63 silly addNameRange     '0.3.5',
+63 silly addNameRange     '0.3.6',
+63 silly addNameRange     '0.3.8',
+63 silly addNameRange     '0.3.9',
+63 silly addNameRange     '0.3.10',
+63 silly addNameRange     '0.3.7',
+63 silly addNameRange     '0.3.11' ] ]
+64 silly addNamed ngstorage@0.3.11
+65 verbose addNamed "0.3.11" is a plain semver version for ngstorage
+66 silly cache afterAdd ngstorage@0.3.11
+67 verbose afterAdd C:\Users\Дом\AppData\Roaming\npm-cache\ngstorage\0.3.11\package\package.json not in flight; writing
+68 verbose correctMkdir C:\Users\Дом\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+69 verbose afterAdd C:\Users\Дом\AppData\Roaming\npm-cache\ngstorage\0.3.11\package\package.json written
+70 silly install resolved [ { name: 'ngstorage',
+70 silly install resolved     version: '0.3.11',
+70 silly install resolved     author: { name: 'Gias Kay Lee' },
+70 silly install resolved     licenses: [ [Object] ],
+70 silly install resolved     repository:
+70 silly install resolved      { type: 'git',
+70 silly install resolved        url: 'git+https://github.com/gsklee/ngStorage.git' },
+70 silly install resolved     main: 'ngStorage.js',
+70 silly install resolved     scripts: { test: 'grunt test' },
+70 silly install resolved     devDependencies:
+70 silly install resolved      { bower: '^1.x',
+70 silly install resolved        grunt: '^0.4.1',
+70 silly install resolved        'grunt-cli': '^0.1.11',
+70 silly install resolved        'grunt-contrib-uglify': '^0.x',
+70 silly install resolved        'grunt-karma': '^0.x',
+70 silly install resolved        karma: '^0.13.2',
+70 silly install resolved        'karma-chrome-launcher': '^0.2.0',
+70 silly install resolved        'karma-firefox-launcher': '^0.1.3',
+70 silly install resolved        'karma-mocha': '^0.2.0',
+70 silly install resolved        'karma-phantomjs-launcher': '^0.2.0',
+70 silly install resolved        mocha: '^2.2.4',
+70 silly install resolved        'phantomjs-prebuilt': '^2.1.1' },
+70 silly install resolved     dependencies: {},
+70 silly install resolved     gitHead: '0887aa096db14cde29a039a81f34abc190dbc996',
+70 silly install resolved     description: 'ngStorage =========',
+70 silly install resolved     bugs: { url: 'https://github.com/gsklee/ngStorage/issues' },
+70 silly install resolved     homepage: 'https://github.com/gsklee/ngStorage#readme',
+70 silly install resolved     _id: 'ngstorage@0.3.11',
+70 silly install resolved     _shasum: '1637c45b872d909d9cc7e18b374898d50b2e844f',
+70 silly install resolved     _from: 'ngstorage@>=0.3.11 <0.4.0',
+70 silly install resolved     _npmVersion: '2.15.1',
+70 silly install resolved     _nodeVersion: '0.12.14',
+70 silly install resolved     _npmUser: { name: 'egilkh', email: 'egilkh@gmail.com' },
+70 silly install resolved     dist:
+70 silly install resolved      { shasum: '1637c45b872d909d9cc7e18b374898d50b2e844f',
+70 silly install resolved        tarball: 'https://registry.npmjs.org/ngstorage/-/ngstorage-0.3.11.tgz' },
+70 silly install resolved     maintainers: [ [Object] ],
+70 silly install resolved     _npmOperationalInternal:
+70 silly install resolved      { host: 'packages-12-west.internal.npmjs.com',
+70 silly install resolved        tmp: 'tmp/ngstorage-0.3.11.tgz_1470033811992_0.22283236496150494' },
+70 silly install resolved     directories: {},
+70 silly install resolved     _resolved: 'https://registry.npmjs.org/ngstorage/-/ngstorage-0.3.11.tgz',
+70 silly install resolved     readme: 'ERROR: No README data found!' } ]
+71 info install ngstorage@0.3.11 into D:\Frontend\OpenServer\OpenServer\domains\myWork
+72 info installOne ngstorage@0.3.11
+73 verbose installOne of ngstorage to D:\Frontend\OpenServer\OpenServer\domains\myWork not in flight; installing
+74 verbose correctMkdir C:\Users\Дом\AppData\Roaming\npm-cache\_locks correctMkdir not in flight; initializing
+75 verbose lock using C:\Users\Дом\AppData\Roaming\npm-cache\_locks\ngstorage-ab69c5159e2a1a17.lock for D:\Frontend\OpenServer\OpenServer\domains\myWork\node_modules\ngstorage
+76 silly install write writing ngstorage 0.3.11 to D:\Frontend\OpenServer\OpenServer\domains\myWork\node_modules\ngstorage
+77 verbose unbuild node_modules\ngstorage
+78 info preuninstall ngstorage@0.3.11
+79 info uninstall ngstorage@0.3.11
+80 verbose unbuild rmStuff ngstorage@0.3.11 from D:\Frontend\OpenServer\OpenServer\domains\myWork\node_modules
+81 info postuninstall ngstorage@0.3.11
+82 silly gentlyRm D:\Frontend\OpenServer\OpenServer\domains\myWork\node_modules\ngstorage is being purged from base D:\Frontend\OpenServer\OpenServer\domains\myWork
+83 verbose gentlyRm don't care about contents; nuking D:\Frontend\OpenServer\OpenServer\domains\myWork\node_modules\ngstorage
+84 silly vacuum-fs purging D:\Frontend\OpenServer\OpenServer\domains\myWork\node_modules\ngstorage
+85 silly vacuum-fs quitting because other entries in D:\Frontend\OpenServer\OpenServer\domains\myWork\node_modules
+86 verbose tar unpack C:\Users\Дом\AppData\Roaming\npm-cache\ngstorage\0.3.11\package.tgz
+87 verbose tar unpacking to D:\Frontend\OpenServer\OpenServer\domains\myWork\node_modules\ngstorage
+88 silly gentlyRm D:\Frontend\OpenServer\OpenServer\domains\myWork\node_modules\ngstorage is being purged
+89 verbose gentlyRm don't care about contents; nuking D:\Frontend\OpenServer\OpenServer\domains\myWork\node_modules\ngstorage
+90 silly gunzTarPerm modes [ '777', '666' ]
+91 silly gunzTarPerm extractEntry package.json
+92 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+93 silly gunzTarPerm extractEntry README.md
+94 silly gunzTarPerm modified mode [ 'README.md', 420, 438 ]
+95 silly gunzTarPerm extractEntry LICENSE
+96 silly gunzTarPerm modified mode [ 'LICENSE', 420, 438 ]
+97 silly gunzTarPerm extractEntry ngStorage.js
+98 silly gunzTarPerm modified mode [ 'ngStorage.js', 420, 438 ]
+99 silly gunzTarPerm extractEntry ngStorage.min.js
+100 silly gunzTarPerm modified mode [ 'ngStorage.min.js', 420, 438 ]
+101 silly gunzTarPerm extractEntry CHANGELOG.md
+102 silly gunzTarPerm modified mode [ 'CHANGELOG.md', 420, 438 ]
+103 verbose write writing to D:\Frontend\OpenServer\OpenServer\domains\myWork\node_modules\ngstorage\package.json
+104 info preinstall ngstorage@0.3.11
+105 verbose readDependencies loading dependencies from D:\Frontend\OpenServer\OpenServer\domains\myWork\node_modules\ngstorage\package.json
+106 verbose readDependencies loading dependencies from D:\Frontend\OpenServer\OpenServer\domains\myWork\node_modules\ngstorage\package.json
+107 silly install resolved []
+108 verbose about to build D:\Frontend\OpenServer\OpenServer\domains\myWork\node_modules\ngstorage
+109 info build D:\Frontend\OpenServer\OpenServer\domains\myWork\node_modules\ngstorage
+110 info linkStuff ngstorage@0.3.11
+111 silly linkStuff ngstorage@0.3.11 has D:\Frontend\OpenServer\OpenServer\domains\myWork\node_modules as its parent node_modules
+112 verbose linkBins ngstorage@0.3.11
+113 verbose linkMans ngstorage@0.3.11
+114 verbose rebuildBundles ngstorage@0.3.11
+115 info install ngstorage@0.3.11
+116 info postinstall ngstorage@0.3.11
+117 verbose unlock done using C:\Users\Дом\AppData\Roaming\npm-cache\_locks\ngstorage-ab69c5159e2a1a17.lock for D:\Frontend\OpenServer\OpenServer\domains\myWork\node_modules\ngstorage
+118 verbose validateInstall loading D:\Frontend\OpenServer\OpenServer\domains\myWork\package.json for validation
+119 verbose stack Error: The package karma@0.10.10 does not satisfy its siblings' peerDependencies requirements!
+119 verbose stack     at D:\Node\node_modules\npm\lib\install.js:125:32
+119 verbose stack     at D:\Node\node_modules\npm\lib\install.js:268:7
+119 verbose stack     at D:\Node\node_modules\npm\node_modules\read-installed\read-installed.js:142:5
+119 verbose stack     at D:\Node\node_modules\npm\node_modules\read-installed\read-installed.js:263:14
+119 verbose stack     at cb (D:\Node\node_modules\npm\node_modules\slide\lib\async-map.js:47:24)
+119 verbose stack     at D:\Node\node_modules\npm\node_modules\read-installed\read-installed.js:263:14
+119 verbose stack     at cb (D:\Node\node_modules\npm\node_modules\slide\lib\async-map.js:47:24)
+119 verbose stack     at D:\Node\node_modules\npm\node_modules\read-installed\read-installed.js:263:14
+119 verbose stack     at cb (D:\Node\node_modules\npm\node_modules\slide\lib\async-map.js:47:24)
+119 verbose stack     at D:\Node\node_modules\npm\node_modules\read-installed\read-installed.js:263:14
+120 verbose cwd D:\Frontend\OpenServer\OpenServer\domains\myWork
+121 error Windows_NT 6.1.7601
+122 error argv "D:\\Node\\node.exe" "D:\\Node\\node_modules\\npm\\bin\\npm-cli.js" "install" "ngstorage"
+123 error node v4.6.0
+124 error npm  v2.15.9
+125 error code EPEERINVALID
+126 error peerinvalid The package karma@0.10.10 does not satisfy its siblings' peerDependencies requirements!
+126 error peerinvalid Peer grunt-karma@0.7.3 wants karma@~0.12.0
+126 error peerinvalid Peer karma-html2js-preprocessor@0.1.0 wants karma@>=0.9
+126 error peerinvalid Peer karma-coffee-preprocessor@0.1.3 wants karma@>=0.9
+126 error peerinvalid Peer karma-mocha@0.1.10 wants karma@>=0.12.8
+126 error peerinvalid Peer karma-script-launcher@0.1.0 wants karma@>=0.9
+126 error peerinvalid Peer karma-phantomjs-launcher@0.1.4 wants karma@>=0.9
+126 error peerinvalid Peer karma-jasmine@0.1.6 wants karma@>=0.9
+126 error peerinvalid Peer karma-requirejs@0.2.6 wants karma@>=0.9
+127 verbose exit [ 1, true ]

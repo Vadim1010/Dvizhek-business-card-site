@@ -1,0 +1,106 @@
+<html ng-app='app'>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="static/build/styles.css">
+    </head>
+<body ng-controller="mainCtrl" ng-style="user.colorText.color">
+<div class="fon" ng-style="user.backgroundBody.photo"></div>
+<div class="container">
+    <nav class="navbar navbar-inverse" ng-style="user.nav.background.background">
+        <div class="container-fluid">
+            <!-- Collect the nav links, forms, and other content for toggling -->
+
+               <div class="left-nav">
+                   <ul class="nav navbar-nav" >
+                        <li ng-click="changeDir('home')"><a href="#/Home/" >Home</a></li>
+                        <li ng-click="changeDir('about')"><a href="#/About/" >About</a></li>
+                        <li ng-click="changeDir('portfolio')"><a href="#/Portfolio/" >Portfolio</a></li>
+                        <li ng-click="changeDir('adminning')" ng-if="admin == 'admin' " >
+                            <a href="#" >Admin</a></li>
+                    </ul>
+               </div>
+                <ul class="nav navbar-nav navbar-right">
+                    <li ng-click="changeDir('form')" ng-if="(admin !=='admin')"><a href="#">
+                        <span class="glyphicon glyphicon-user"></span></a>
+                    </li>
+                    <li ng-click="exitAdmin()" ng-if="(admin == 'admin')"><a href="#" >
+                        <span class="glyphicon glyphicon-off"></span></a>
+                    </li>
+                </ul>
+
+        </div><!-- /.container-fluid -->
+    </nav>
+
+
+
+
+    <div class="col-sm-5 col-xs-12" ng-if="(changeClick !== 'form')" >
+        <div class="contact">
+             <div class = "photo" >
+                 <span ng-if="(admin == 'admin')" editable-url="user.photoUrl" e-label="url">Change Photo</span>
+                 <img ng-src='{{user.photoUrl}}' alt="Vadim" class="img">
+
+             </div>
+
+            <div class="contacts">
+                <table class="table">
+                    <tr class="bor">
+                        <td class="colBlue">First Name</td>
+                        <td >{{user.name || 'Name'}}
+                         <span class="glyphicon glyphicon-pencil rename" ng-if="(admin == 'admin')"
+                               editable-text="user.name" e-label="Name">
+                            </span>
+                        </td>
+                    </tr>
+                     <tr class="bor">
+                        <td class="colBlue">Last Name</td>
+                        <td>{{user.lastName || 'Last name'}}
+                            <span class="glyphicon glyphicon-pencil rename" ng-if="(admin == 'admin')"
+                              editable-text="user.lastName" e-label="Last Name">
+                            </span>
+                        </td>
+                    </tr>
+                    <tr class="bor">
+                        <td class="colBlue"><span class="glyphicon glyphicon-home"> </span> ADDRESS</td>
+                        <td>{{user.address || 'My address'}}
+                            <span class="glyphicon glyphicon-pencil rename" ng-if="(admin == 'admin')"
+                              editable-text="user.address" e-label="Address">
+                            </span>
+                        </td>
+                    </tr>
+                    <tr class="bor">
+                        <td class="colBlue"><span class="glyphicon glyphicon-envelope"> </span> E-MAIL</td>
+                        <td>{{user.email || 'My email'}}
+                            <span class="glyphicon glyphicon-pencil rename" ng-if="(admin == 'admin')" editable-email="user.email"
+                                  e-label="Email">
+                            </span>
+                        </td>
+                    </tr>
+                    <tr class="bor">
+                        <td class="colBlue"><span class=" glyphicon glyphicon-earphone"> </span> PHONE</td>
+                        <td >{{user.phone || 'My Phone'}}
+                          <span class="glyphicon glyphicon-pencil rename" ng-if="(admin == 'admin')"
+                                editable-tel="user.phone" e-label="Phone">
+                          </span>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-sm-7 col-xs-12 about)">
+        <div home="user" ng-if="(changeClick =='home')" class="home"></div>
+        <div about="user" ng-if="(changeClick =='about')" class="user"></div>
+        <div portfolio="user" ng-if="(changeClick =='portfolio')" class="portfolio"></div>
+        <div admin="user" ng-if="(changeClick =='adminning')" class="admin"></div>
+
+    </div>
+    <div form ="user" ng-if="(changeClick =='form')"  class="form"></div>
+</div>
+
+
+
+<script type="text/javascript" src="static/build/bundle.js"></script>
+</body>
+</html>

@@ -1,0 +1,42 @@
+<span class="glyphicon glyphicon-pencil rename" ng-if="(admin == 'admin')" editable-text="user.about.education.hed"></span>
+<h3 ng-bind="user.about.education.hed"></h3>
+<br>
+<div class="education" ng-repeat="item in user.about.education.school">
+    <p>{{item.schoolName}}
+        <span class="glyphicon glyphicon-pencil rename" ng-if="(admin == 'admin')" editable-text="item.schoolName"></span>
+    </p>
+
+    <p>
+        {{item.specialty}}
+        <span class="glyphicon glyphicon-pencil rename" ng-if="(admin == 'admin')" editable-text="item.specialty"></span>
+    </p>
+    <button type="button" class="btn btn-danger" ng-click="removeEducation(item)" ng-if="(admin == 'admin')">Delete</button>
+    <hr>
+</div>
+
+<div class="form-group" ng-if="(admin == 'admin')">
+    <p >School Name</p>
+    <input type="text" class="form-control"  ng-model="newSchoolName">
+    <p>Specialty</p>
+    <input type="text" class="form-control"  ng-model="newSpecialty">
+    <button type="submit" class="btn btn-default" ng-click="addEducation(newSchoolName, newSpecialty)">Add Education</button>
+</div>
+
+
+<h3>My Skills</h3>
+<table class="table">
+   <tr ng-repeat="key in user.about.skills">
+       <td ng-bind="key.skill"></td>
+       <td ng-bind="key.lvl"></td>
+       <td ng-if="(admin == 'admin')"><button type="button" class="btn btn-danger" ng-click="removeSkill(key)">Delete</button></td>
+   </tr>
+</table>
+
+<div class="form-group" ng-if="(admin == 'admin')">
+    <p >Skill</p>
+    <input type="text" class="form-control"  ng-model="newSkill">
+    <p>Lvl Skill</p>
+    <input type="text" class="form-control"  ng-model="newLvl">
+    <button type="submit" class="btn btn-default" ng-click="addSkill(newSkill, newLvl)">Add Skill</button>
+</div>
+
